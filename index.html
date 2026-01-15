@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        The <head> contains meta information about the document.
+        This does not appear on the page but helps browsers and search engines.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+</head>
 
+<body>
+
+    <!-- 
+        <header> represents introductory content.
+        It usually contains headings, logos, or navigation.
+    -->
+    <header>
+        <h1>Bhawana Bhardwaj</h1>
+        <p>Web Development Learner | Aspiring Front-End Developer</p>
+    </header>
+
+    <!-- 
+        <nav> is used for navigation links.
+        It helps screen readers understand page navigation.
+    -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 
+        <main> holds the main content of the page.
+        There should be only one <main> per page.
+    -->
+    <main>
+
+        <!-- 
+            <section> groups related content together.
+            Each section has a heading for accessibility.
+        -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <!-- 
+                <article> represents a self-contained piece of content.
+                It is useful when content can stand alone.
+            -->
+            <article>
+                <img 
+                    src="profile.jpg" 
+                    alt="Profile picture of Chetan Bhardwaj" 
+                    width="200"
+                >
+                <p>
+                    Hello! My name is Chetan Bhardwaj. I am learning web development
+                    and enjoy creating clean, accessible, and user-friendly websites.
+                    I am currently focusing on HTML, CSS, and JavaScript fundamentals.
+                </p>
+            </article>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <ul>
+                    <li>High School – CBSE Board</li>
+                    <li>Currently Learning Web Development</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <article>
+                <ul>
+                    <li>HTML5 (Semantic HTML)</li>
+                    <li>Basic CSS</li>
+                    <li>JavaScript (Beginner)</li>
+                    <li>VS Code</li>
+                    <li>Basic Git & GitHub</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Details</h2>
+            <article>
+                <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+                <p>Phone: +91-XXXXXXXXXX</p>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- 
+        <footer> represents footer information.
+        Usually contains copyright or extra links.
+    -->
+    <footer>
+        <p>&copy; 2026 Chetan Bhardwaj. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
